@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           instagram.com-dark
 @namespace      github.com/superloach/instagram.com-dark
-@version        1.0.1
+@version        1.0.2
 @description    Dark theme on instagram.com with UserCSS.
 @author         Terra Brown
 ==/UserStyle== */
@@ -16,11 +16,15 @@
         --fe0: 82, 155, 224;
         border: none !important;
     }
-    
+
+    .z79H6:checked {
+        border: 3px solid rgba(var(--d69, 0, 149, 246), 1) !important;
+    }
+
     .VideM, .Di7vw, .x3qfX, ._3MPWk, ._8Rm4L, .zMhqu, .KQA-S, .AcVnq, ._1MzIy, ._8_yLp, .X3a-9, ._1XyCr, .RO68f, .-HRM- {
         background: rgba(var(--bb2)) !important;
     }
-    
+
     ._8_yLp.yg25g, .-HRM- {
         border-radius: 22px;
     }
@@ -29,8 +33,8 @@
         fill: rgba(var(--i1d));
         color: rgba(var(--i1d));
     }
-    
+
     div.cq2ai > img {
         filter: invert();
-    }   
+    }
 }
