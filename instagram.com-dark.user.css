@@ -1,0 +1,35 @@
+/* ==UserStyle==
+@name           instagram.com-dark
+@namespace      github.com/superloach/instagram.com-dark
+@version        1.0.0
+@description    Dark theme on instagram.com with UserCSS.
+@author         Terra Brown
+==/UserStyle== */
+@-moz-document domain("instagram.com") {
+    * {
+        --d87: 0, 0, 0;
+        --i1d: 255, 255, 255;
+        --bb2: 33, 33, 33;
+        --b6a: 100, 100, 100;
+        --b3f: 0, 0, 0;
+        --f75: 255, 255, 255;
+        border: none !important;
+    }
+    
+    .VideM, .Di7vw, .x3qfX, ._3MPWk, ._8Rm4L, .zMhqu, .KQA-S, .AcVnq, ._1MzIy, ._8_yLp, .X3a-9 {
+        background: rgba(var(--bb2));
+    }
+    
+    ._8_yLp.yg25g {
+        border-radius: 22px;
+    }
+
+    svg._8-yf5 {
+        fill: rgba(var(--i1d));
+        color: rgba(var(--i1d));
+    }
+    
+    div.cq2ai > img {
+        filter: invert();
+    }   
+}
